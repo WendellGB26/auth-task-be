@@ -6,31 +6,10 @@ Follow these steps to set up and run the project locally:
 
 1. Clone the Repository
 ``` shell
-git clone <repository-url>
+git clone https://github.com/WendellGB26/auth-task-be.git
 ```
 
-2. Install Dependencies
-``` shell
-pip install .
-or
-pip3 install .
-```
-
-3. Set up the Database
-``` shell
-python manage.py migrate
-or
-python3 manage.py migrate 
-```
-
-4. Create a Superuser (Optional)
-``` shell
-python manage.py createsuperuser
-or
-python3 manage.py createsuperuser
-```
-
-8. Run the Development Server
+2. Run the Development Server
 ``` shell
 python manage.py runserver
 or
